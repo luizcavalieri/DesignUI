@@ -10,6 +10,8 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIView *counterView;
+@property (weak, nonatomic) IBOutlet UILabel *counterLabel;
 
 @end
 

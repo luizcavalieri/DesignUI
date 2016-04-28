@@ -16,6 +16,8 @@
 		52600FB01CCF2019003BBEBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52600FAE1CCF2019003BBEBC /* LaunchScreen.storyboard */; };
 		52600FBB1CCF2019003BBEBC /* DesignUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52600FBA1CCF2019003BBEBC /* DesignUITests.m */; };
 		52600FC61CCF2019003BBEBC /* DesignUIUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52600FC51CCF2019003BBEBC /* DesignUIUITests.m */; };
+		52600FDE1CCF2B25003BBEBC /* PushButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 52600FDD1CCF2B25003BBEBC /* PushButton.m */; };
+		529BA8091CD1C48700FF0C72 /* CounterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 529BA8081CD1C48700FF0C72 /* CounterView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		52600FC11CCF2019003BBEBC /* DesignUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52600FC51CCF2019003BBEBC /* DesignUIUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DesignUIUITests.m; sourceTree = "<group>"; };
 		52600FC71CCF2019003BBEBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52600FDC1CCF2B25003BBEBC /* PushButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushButton.h; sourceTree = "<group>"; };
+		52600FDD1CCF2B25003BBEBC /* PushButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushButton.m; sourceTree = "<group>"; };
+		529BA8071CD1C48700FF0C72 /* CounterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CounterView.h; sourceTree = "<group>"; };
+		529BA8081CD1C48700FF0C72 /* CounterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CounterView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +119,10 @@
 				52600FB11CCF2019003BBEBC /* Info.plist */,
 				52600FA91CCF2019003BBEBC /* DesignUI.xcdatamodeld */,
 				52600F9D1CCF2019003BBEBC /* Supporting Files */,
+				52600FDC1CCF2B25003BBEBC /* PushButton.h */,
+				52600FDD1CCF2B25003BBEBC /* PushButton.m */,
+				529BA8071CD1C48700FF0C72 /* CounterView.h */,
+				529BA8081CD1C48700FF0C72 /* CounterView.m */,
 			);
 			path = DesignUI;
 			sourceTree = "<group>";
@@ -210,6 +220,7 @@
 				TargetAttributes = {
 					52600F991CCF2019003BBEBC = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = LAZRDRFRTL;
 					};
 					52600FB51CCF2019003BBEBC = {
 						CreatedOnToolsVersion = 7.3;
@@ -277,6 +288,8 @@
 				52600FAB1CCF2019003BBEBC /* DesignUI.xcdatamodeld in Sources */,
 				52600FA21CCF2019003BBEBC /* AppDelegate.m in Sources */,
 				52600F9F1CCF2019003BBEBC /* main.m in Sources */,
+				52600FDE1CCF2B25003BBEBC /* PushButton.m in Sources */,
+				529BA8091CD1C48700FF0C72 /* CounterView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +432,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = DesignUI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = au.com.interactivehippo.DesignUI;
@@ -430,6 +444,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = DesignUI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = au.com.interactivehippo.DesignUI;
@@ -502,6 +517,7 @@
 				52600FCC1CCF2019003BBEBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		52600FCD1CCF2019003BBEBC /* Build configuration list for PBXNativeTarget "DesignUITests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +526,7 @@
 				52600FCF1CCF2019003BBEBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		52600FD01CCF2019003BBEBC /* Build configuration list for PBXNativeTarget "DesignUIUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +535,7 @@
 				52600FD21CCF2019003BBEBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
